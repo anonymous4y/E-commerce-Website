@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "MONGO_USER=harsh5 MONGO_PASSWORD=AoSwHwXEmZ9hz6dk MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=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 node app.js",
+    "start": "MONGO_USER=user_id MONGO_PASSWORD=password MONGO_DEFAULT_DATABASE=dtabase_name STRIPE_KEY=your_secret_key node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
   },
